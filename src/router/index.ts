@@ -4,6 +4,9 @@ import Non from '../views/Non/Non.vue'
 import Pon from '../views/Pon/Pon.vue'
 import Yok from '../views/Yok/Yok.vue'
 
+// ระบบรถถัง
+import Cavalry_time_attendance_system from '../views/Pon/Cavalry_time_attendance_system.vue'
+import Tank_time_attendance_system from '../views/Pon/Tank_time_attendance_system.vue'
 const routes: Array<RouteRecordRaw> = [
   {
     path: '/',
@@ -15,11 +18,23 @@ const routes: Array<RouteRecordRaw> = [
     name: 'Non',
     component: Non
   },
+  // pon -------------------
   {
     path: '/Pon',
     name: 'Pon',
     component: Pon
   },
+  {
+    path: '/Cavalry_time_attendance_system',
+    name: 'Cavalry_time_attendance_system',
+    component: Cavalry_time_attendance_system
+  }, 
+  {
+    path: '/Tank_time_attendance_system',
+    name: 'Tank_time_attendance_system',
+    component: Tank_time_attendance_system
+  },
+  // -----------------------
   {
     path: '/Yok',
     name: 'Yok',
