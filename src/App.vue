@@ -4,6 +4,7 @@
     <router-link to="/Non">NonNonNon</router-link> |
     <router-link to="/Yok">Yok</router-link> | 
     <router-link to="/Pon">Pon</router-link> |
+    <router-link to="/Tao">Tao</router-link> |
   </div>
   <router-view/>
 </template>
