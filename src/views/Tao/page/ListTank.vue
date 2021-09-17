@@ -1,10 +1,15 @@
 <template>
   <div>
-    <h1>List of Lung-too Tank</h1>
-    <div v-for="tank in tanklist" :key="tank.tankname">
-        <div>
-            <img class="image-list" :src=tank.tankImg>
-            <h3>{{tank.tankname}}</h3>
+    <h1 class="text-5xl m-10">List of Lung-too Tank</h1>
+    <div  v-for="tank in tanklist" :key="tank.tankname">
+        <div class="max-m-min mb-10">
+            <div class='grid grid-cols-12 gap-10'>
+            <img class="col-start-3 col-span-2 image-list" :src=tank.tankImg>
+            <div class="col-span-5">
+            <h3 class="text-left text-xl">{{tank.tankname}}</h3>
+            <p class="text-left text-xs">{{tank.description}}</p>
+            </div>
+            </div>
         </div>
     </div>
   </div>
@@ -43,10 +48,10 @@ export default defineComponent({
 });
 </script>
 <style scoped>
-.image-list {
-  /* display: block; */
-  width: 200px;
-  height: 150px;
-  margin: 1%;
-}
+    .image-list {
+        margin: auto ;
+        width: 200px;
+        height: 150px;
+    }
+
 </style>
