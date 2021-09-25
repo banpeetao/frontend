@@ -3,6 +3,7 @@ import Home from '../views/Home.vue'
 import Non from '../views/Non/Non.vue'
 import Pon from '../views/Pon/Pon.vue'
 import Yok from '../views/Yok/Yok.vue'
+import Tao from '../views/Tao/Tao.vue'
 
 // ระบบรถถัง
 import Cavalry_time_attendance_system from '../views/Pon/Cavalry_time_attendance_system.vue'
@@ -39,6 +40,11 @@ const routes: Array<RouteRecordRaw> = [
     path: '/Yok',
     name: 'Yok',
     component: Yok
+  },
+  {
+    path: '/Tao',
+    name: 'Tao',
+    component: Tao
   },
   {
     path: '/about',

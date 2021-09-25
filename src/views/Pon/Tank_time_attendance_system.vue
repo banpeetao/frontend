@@ -5,32 +5,31 @@
       class="center"
       alt="soldier"
       src="./img01.png"
-      width="200"
-      height="200"
+      width="201"
+      height="201"
     />
     <br />
-    <input type="file" accept="image/jpeg/*" @change="uploadImage()" />
+    <input class="button" type="file" accept="image/jpeg/*" @change="uploadImage()" >
     <br />
-    <router-link class="button" to="/Tank_time_attendance_system"
-      >เพิ่มรูป</router-link
-    >
-    <br /><label for="fname">First Name</label> <br /><input
+    
+    <label for="fname">First Name</label> <br /><input
       type="text"
       id="fname"
       name="firstname"
       placeholder="Your name.."
     />
 
-    <br /><label for="lname">Last Name</label> <br /><input
+    <br />
+    <label for="lname">Last Name</label> <br /><input
       type="text"
       id="lname"
       name="lastname"
       placeholder="Your last name.."
     />
 
-    <br /><router-link class="button" to="/Tank_time_attendance_system"
-      >เพิ่มนายทหาร</router-link
-    >
+    <br />
+    <router-link class="button" to="/Cavalry_time_attendance_system">เพิ่มนายทหาร
+      </router-link>
   </div>
 </template>
 
