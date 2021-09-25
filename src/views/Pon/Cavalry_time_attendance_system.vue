@@ -25,7 +25,7 @@
         <td>
           <router-link class="button" to="/Tank_time_attendance_system">ลงเวลารถถัง</router-link>
           <br/>
-          <router-link class="button" to="/Tank_time_attendance_system">ลงเวลารถถัง</router-link>
+          <router-link class="button" to="/Tank_time_attendance_system">ลบนายทหาร</router-link>
           </td>
 
 

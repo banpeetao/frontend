@@ -9,12 +9,9 @@
   },
   "dependencies": {
     "@mdi/font": "5.9.55",
-<<<<<<< HEAD
     "@syncfusion/ej2-vue-buttons": "^19.2.60",
-=======
     "@tailwindcss/postcss7-compat": "^2.2.14",
     "autoprefixer": "^9",
->>>>>>> 36e870716041b54702b97090c70ebf1b91ab832f
     "core-js": "^3.6.5",
     "postcss": "^7",
     "roboto-fontface": "*",
